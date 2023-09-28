@@ -28,7 +28,7 @@ html {
 }
 
 h1,
-h3 {
+h2 {
     margin: 0;
 }
 
@@ -105,4 +105,24 @@ h3 {
     min-width: 0;
 
     flex: 1;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+
+    align-items: stretch;
+    justify-content: center;
+
+    gap: 1em;
+}
+
+.socialsLink {
+    height: 48px;
+    width: auto;
+}
+
+.socialsImg {
+    height: 100%;
+    width: auto;
 }
