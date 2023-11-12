@@ -126,3 +126,39 @@ h2 {
     height: 100%;
     width: auto;
 }
+
+.extraLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+
+.kitContent > * {
+    width: 100%;
+    height: auto;
+}
+
+.kitContentGrid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+}
+.kitGridItem {
+    width: 100%;
+}
+
+.kitContentFlexVert {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.kitContentFlexHor {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.trailerVideo {
+    border: 2px solid white;
+}
